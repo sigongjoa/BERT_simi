@@ -51,6 +51,22 @@ hand_craft와 인터넷에서 긁어온 데이터를 유사도 추정 후 비교
 > hand craft : https://github.com/sigongjoa/BERT_simi/blob/main/bert_sim_keyword.ipynb
 
 
+## 예상되는 최대 차원
+* 수치화가 제대로 되었는지에 대한 비교값이 없음  
+* 아래 Table을 이용해서 수치화가 제대로 되었는지 확인  
+
+|행동| 예상되는 최대 차원 |
+|---:|---:|
+| 명상 | 에너지 |
+| 산책 | ? |
+| 등산 | ? |
+| 샤워 | 정화 |
+| 수영 | 에너지 |
+| 자전거 타기 | 에너지, 회복 |
+| 요가 | 에너지 |
+| 스트레칭 | 에너지, 회복 |
+| 여행 | ?? |
+
 # Test
 1. 현재 유사도 방식이 적절한가?
 └ latent factor를 mean_pooling을 적용함 -> max_pooling 혹은 pooling 없이 factor만 해서 유사도 계산
