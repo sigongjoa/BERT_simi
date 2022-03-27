@@ -68,7 +68,7 @@ hand_craft와 인터넷에서 긁어온 데이터를 유사도 추정 후 비교
 | 여행 | ?? |
 
 # Test
-1. 현재 유사도 방식이 적절한가?
-└ latent factor를 mean_pooling을 적용함 -> max_pooling 혹은 pooling 없이 factor만 해서 유사도 계산
-2. 현재 모델이 적절한가?
-└ 다른 한국어 BERT 모델에서 확인 
+1. 현재 유사도 방식이 적절한가?  
+└ latent factor를 mean_pooling을 적용함 -> max_pooling 혹은 pooling 없이 factor만 해서 유사도 계산  
+2. 현재 모델이 적절한가?  
+└ 다른 한국어 BERT 모델에서 확인   
